@@ -1,6 +1,6 @@
 import { Mail, AlertCircle } from "lucide-react"
 import TempEmailBox from "@/components/temp-email-box"
-import EmptyInbox from "@/components/empty-inbox"
+import EmailList from "@/components/email-list"
 import InfoSection from "@/components/info-section"
 import PopularArticles from "@/components/popular-articles"
 import TechExplanation from "@/components/tech-explanation"
@@ -28,7 +28,7 @@ export default function Home() {
 
         <TempEmailBox />
 
-        <EmptyInbox />
+        <EmailList />
 
         <div className="mt-12 grid gap-8 md:grid-cols-2">
           <InfoSection />
